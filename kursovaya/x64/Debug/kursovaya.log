@@ -1,0 +1,17 @@
+﻿  game.c
+C:\Users\Павел\Downloads\game.c(65,21): warning C4013: rand: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\Павел\Downloads\game.c(101,78): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Павел\Downloads\game.c(104,78): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  input.c
+  main.c
+  render.c
+C:\Users\Павел\Downloads\render.c(163,20): warning C4244: функция: преобразование "float" в "int", возможна потеря данных
+C:\Users\Павел\Downloads\render.c(164,23): warning C4244: функция: преобразование "float" в "int", возможна потеря данных
+C:\Users\Павел\Downloads\render.c(165,23): warning C4244: функция: преобразование "float" в "int", возможна потеря данных
+C:\Users\Павел\Downloads\render.c(166,23): warning C4244: функция: преобразование "float" в "int", возможна потеря данных
+C:\Users\Павел\Downloads\render.c(176,20): warning C4244: функция: преобразование "float" в "int", возможна потеря данных
+C:\Users\Павел\Downloads\render.c(177,23): warning C4244: функция: преобразование "float" в "int", возможна потеря данных
+C:\Users\Павел\Downloads\render.c(178,23): warning C4244: функция: преобразование "float" в "int", возможна потеря данных
+C:\Users\Павел\Downloads\render.c(179,23): warning C4244: функция: преобразование "float" в "int", возможна потеря данных
+  Создание кода...
+  kursovaya.vcxproj -> C:\Users\Павел\Desktop\kursovaya\x64\Debug\kursovaya.exe

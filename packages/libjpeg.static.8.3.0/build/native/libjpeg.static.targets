@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IncludePath>$(MSBuildThisFileDirectory)jpeg;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <NuGetExConnentFiles Include="$(MSBuildThisFileDirectory)jpeg\*.c">
+      <NuGetPackageId>$(MSBuildThisFileName)</NuGetPackageId>
+      <BuildAction>ClCompile</BuildAction>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <SDLCheck>false</SDLCheck>
+      <ConformanceMode>false</ConformanceMode>
+      <ObjectFileName>$(IntDir)$(MSBuildThisFileName)\</ObjectFileName>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <CompileAs>Default</CompileAs>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </NuGetExConnentFiles>
+  </ItemGroup>
+</Project>
